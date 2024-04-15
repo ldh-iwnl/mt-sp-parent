@@ -5,13 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>hk.hku</groupId>
-        <artifactId>mt-sp-parent</artifactId>
+        <artifactId>mt-sp-service-api-impl</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <artifactId>mt-sp-service-api-impl-member</artifactId>
-
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

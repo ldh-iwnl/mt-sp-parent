@@ -10,8 +10,6 @@
   <modules>
     <module>mt-sp-service-api</module>
     <module>mt-sp-service-api-impl</module>
-    <module>mt-sp-service-api-impl/mt-sp-service-api-impl-weixin</module>
-    <module>mt-sp-service-api-impl/mt-sp-service-api-impl-member</module>
     <module>mt-sp-service-base</module>
   </modules>
 
@@ -75,7 +73,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-
     </dependencies>
   </dependencyManagement>
 </project>

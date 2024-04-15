@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 全局捕获异常
  */
-@ControllerAdvice(basePackages = "com.mayikt.api.impl")
+@ControllerAdvice(basePackages = "hk.hku.api.impl")
 public class GlobalExceptionHandler {
 
    @ExceptionHandler(RuntimeException.class)
