@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @TableName("mayikt_user")
-public class UserEntity {
+public class UserDo {
     @TableId
     private Integer userId;
     private String userName;
